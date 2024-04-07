@@ -1,0 +1,11 @@
+.bground{
+    background-color: rgb(250, 249, 250);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.headings{
+    text-align: center;
+    margin: 25px;
+}

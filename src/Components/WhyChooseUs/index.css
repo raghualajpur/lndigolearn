@@ -1,0 +1,34 @@
+.card-s {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+  
+.card-s:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+  
+.container-s {
+    padding: 2px 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-s{
+    width: 100px;
+}
+
+.card-bootms{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 7px;
+    
+}

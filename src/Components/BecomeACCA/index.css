@@ -1,0 +1,126 @@
+.backcontainer{
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+    max-width: 100%;
+    align-items: baseline;
+    align-content: space-between;
+    background-color: aliceblue;
+}
+
+.back{
+    background-color: aliceblue;
+    padding:20px;
+    width: 100%;
+}
+
+.child-containers{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width:40%
+}
+
+.spl-card{
+    display: inline-block;
+    border: 3px solid rgb(119, 113, 113);
+    box-shadow: 10px 5px 5px rgb(180, 175, 175);
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.spl-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttons{
+  display: inline-block;
+}
+
+.buttons button{
+    margin: 10px;
+    border-radius: 5px;
+    padding: 4px;
+    box-shadow: 10px 5px 5px rgb(207, 202, 202);
+    color:#ffffff;
+}
+
+.call-btn{
+    background-color: rgb(98, 98, 252);
+
+}
+
+.error{
+    color:red
+}
+
+.models-style{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.getdis-btn{
+    background-color: rgb(191, 51, 1);
+}
+
+
+.form-card{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-top: 3px solid rgb(75, 75, 255);
+    border-bottom: 1px solid;
+    box-shadow: 0px 5px rgb(173, 173, 174);
+    border-right: 2px solid #d5cfcf;
+    border-left: 2px solid #d5cfcf;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}
+
+.inputs input{
+    min-width: 300px;
+    margin:10px;
+    border-radius: 5px;
+    height: 45px;
+    border: 3px solid #efeded;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.btns{
+    text-align: center;
+    margin-left: 10px;
+    margin-top:10px;
+    padding: 5px;
+    border-radius: 5px;
+    width:300px;
+    color:#ffffff;
+    background-color: rgb(102, 102, 225);
+    
+}
+
+@media (min-width:400px) and ( max-width:1000px ){
+    .backcontainer{
+        flex-direction: column;
+        margin: 0px;
+        
+    }
+    .child-containers{
+        min-width :100%;
+        max-width: 50%;
+    }
+}
