@@ -6,3 +6,11 @@
 .bg-navs{
     background-color: rgb(107, 100, 210);
 }
+
+.logins{
+    background-color: #ffffff;
+    color: rgb(8, 0, 0);
+    border: 2px solid rgb(218, 176, 176);
+    border-radius: 10px;
+    font-weight: bold;
+}

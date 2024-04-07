@@ -18,7 +18,7 @@ const Header= () =>{
             <Nav.Link className=' text-light' href="#link">Placement Asistence</Nav.Link>
             <Nav.Link className=' text-light' href="#home">ACCA Prep Journey</Nav.Link>
             <Nav.Link className='text-light' href="#link">Why Choose Us</Nav.Link>
-            <Nav.Link className='text-light' href="#link">Sign Up / Login</Nav.Link>
+            <Nav.Link className='logins' href="#link">Sign Up / Login</Nav.Link>
             
           </Nav>
         </Navbar.Collapse>
